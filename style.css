@@ -255,3 +255,59 @@ header ul li a{
     }
 }
  */
+
+ /* Add this CSS for smaller screens (e.g., tablets and smartphones) */
+@media screen and (max-width: 768px) {
+    .banner {
+        padding: 50px; /* Reduce padding for smaller screens */
+    }
+
+    header .logo {
+        font-size: 1.5em; /* Decrease font size for the logo */
+    }
+
+    header ul {
+        gap: 20px; /* Reduce the gap between navigation items */
+    }
+
+    .content h2 {
+        font-size: 4em; /* Decrease the font size of the heading */
+    }
+
+    .content p {
+        font-size: 1.2em; /* Decrease the font size of the text */
+    }
+
+    .content button {
+        font-size: 1em; /* Decrease the font size of buttons */
+    }
+
+    .men {
+        display: none; /* Hide the image for smaller screens */
+    }
+}
+
+/* Add this CSS for even smaller screens (e.g., smartphones) */
+@media screen and (max-width: 480px) {
+    .banner {
+        padding: 30px; /* Further reduce padding for smaller screens */
+    }
+
+    header .logo {
+        font-size: 1.2em; /* Decrease font size for the logo */
+    }
+
+    .content h2 {
+        font-size: 1em; /* Decrease the font size of the heading */
+    }
+
+    .content p {
+        font-size: 1em; /* Decrease the font size of the text */
+    }
+
+    .content button {
+        font-size: 0.9em; /* Decrease the font size of buttons */
+    }
+
+    
+}
