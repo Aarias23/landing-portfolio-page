@@ -120,9 +120,9 @@ header ul li a{
     font-size: 1.4em;
     color: #666;
     margin: 10px 0;
+    max-width: 100%;
     transition: 0.5s;
     text-align: justify;
-    background: ;
 }
 
 .content button{
@@ -237,6 +237,13 @@ header ul li a{
     }
 }
 
+.img-container img {
+    width: 200px;
+    height:200px;
+    background-color: #f5f5f5; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a box shadow with a slight transparency */
+}
+
 .men{
     position: absolute;
     right: 0px;
@@ -332,3 +339,4 @@ header ul li a{
     }
     
 }
+
