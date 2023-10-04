@@ -241,9 +241,10 @@ header ul li a{
     position: absolute;
     right: 0px;
     bottom: 0;
-    height: 85vh; 
+    height: 75vh; 
     border-radius: 5px;
     animation: animateMen 8s ease-in-out infinite;
+
 }
 
 /* @keyframes animateMen{
@@ -271,7 +272,7 @@ header ul li a{
     }
 
     .content h2 {
-        font-size: 4em; /* Decrease the font size of the heading */
+        font-size: 3em; /* Decrease the font size of the heading */
     }
 
     .content p {
@@ -286,6 +287,27 @@ header ul li a{
         display: none; /* Hide the image for smaller screens */
     }
 }
+
+/* Add this CSS for tablet-sized screens */
+@media screen and (max-width: 1024px) {
+    .content h2 {
+        font-size: 3em; /* Decrease the font size of the heading */
+    }
+
+    .content p {
+        font-size: 1.2em; /* Decrease the font size of the text */
+    }
+
+    .content button {
+        font-size: 1em; /* Decrease the font size of buttons */
+    }
+
+    .men {
+        height: 40vh; /* Adjust the image height for tablets */
+    }
+}
+
+/* ... (continue with the rest of your CSS code) ... */
 
 /* Add this CSS for even smaller screens (e.g., smartphones) */
 @media screen and (max-width: 480px) {
@@ -308,6 +330,5 @@ header ul li a{
     .content button {
         font-size: 0.9em; /* Decrease the font size of buttons */
     }
-
     
 }
